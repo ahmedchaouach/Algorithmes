@@ -1,0 +1,22 @@
+ALGORITHM algorithm_name
+VAR
+    lp : INTEGER ;
+    nv : INTEGER :=0;
+    nm : INTEGER :=0;
+    phr : STRING [] ;
+    i :INTEGER:=0;
+BEGIN
+ write( "donner une phrase")
+ Read( phr )
+ lp:= phr.lenght-2
+ WHILE (phr[i]<>"." ) DO
+ if( phr[i]:= " ")
+ nm:= nm+1;
+ else if ( phr[i]:="a" or phr[i]:="e" or phr[i]:="i" or phr[i]:="o" or phr[i]:="u" or phr[i]:="y")
+ nv;=nv+1;
+ i++;
+ END_WHILE
+  write ( lp )
+  write ( nv )
+  write ( nm )
+END
